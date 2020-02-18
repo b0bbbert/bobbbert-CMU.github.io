@@ -1,0 +1,81 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1c211f;
+}
+
+a > img {
+  width: 80%;
+  height: 160px;
+}
+
+a:link {
+  color: #FFCB9A;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFCB9A;
+  text-decoration: none;
+}
+
+.column {
+  padding-top: 5%;
+  width: 30%;
+  height: 200px;
+  float: left;
+  font-size: 25px;
+  border-width: 1px;
+  border-color: #D1E8E2;
+  border-left-style: solid;
+  border-right-style: solid;
+  margin: 10px, 4px, 0px, 4px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+header {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+  color: #FFCB9A;
+}
+
+.howToHeader {
+  font-family: 'Odibee Sans', cursive;
+  text-align: left;
+  font-size: 26px;
+}
+
+.howToBody {
+  text-align: left;
+}
+
+#index_image {
+  width: 40%;
+  height: 300px;
+  float: right;
+}
+
+#index_list {
+  font-size: 25px;
+  width: 50%;
+  float: left;
+  text-align: left;
+  list-style: none;
+  padding-left: 10%;
+}
+
+#index_list > ul {
+  list-style: none;
+}
+
+#main_content {
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #D1E8E2;
+  text-align: center;
+}
