@@ -1,0 +1,158 @@
+/* needs !important to override bootstrap css */
+body {
+  background: #F7F7F7 !important;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.bottom {
+  bottom: 0%;
+  color: white;
+  left: 0%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+  position: absolute;
+}
+
+.chat {
+  background-color: #00A4FA;
+  border: none;
+  color: white;
+  font-size: auto;
+  text-transform: uppercase;
+}
+
+.client-photo {
+  height: 100%;
+  object-fit: cover;
+  transform: translate(5%,0);
+  width: 100%;
+}
+
+#clientpic-container {
+  position: absolute;
+  left: 52%;
+  top: 9%;
+  width: 450px;
+  height: 86%;
+}
+
+#gallery-container {
+	margin-top: 2em;
+  width: 925px;
+  position: relative;
+  left: -107px;
+}
+
+.gallery-row {
+  margin-bottom: 1em;
+}
+
+.gallery-photo {
+  width: 100%;
+  height: 75%;
+  box-shadow: 0 0 10px gray;
+  margin-bottom: 0.75em;
+}
+
+.gallery-link {
+  color: #DB7600;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title-text {
+  text-transform: uppercase;
+  color: black;
+  font-size: 2.3em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0px;
+  vertical-align: text-top;
+}
+
+.title-text-small {
+  color: black;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0px;
+  vertical-align: text-top;
+}
+
+.title-blue {
+  color: #00A4FA;
+}
+
+.title-clientpic {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.title-orange {
+  color: #DB7600;
+}
+
+.top {
+  left: 0%;
+  margin-left: 8%;
+  margin-top: 6%;
+  position: absolute;
+  top: 0%;
+}
+
+.sub-head {
+  color: #BCBCBC;
+  font-weight: 400;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.navbar {
+  /* bold font */
+  font-weight: 400;
+  font-size: 17px;
+  background-color: #00A4FA;
+  min-height: 0px !important;
+  padding-top: 0.1em !important;
+  padding-bottom: 0.1em !important;
+}
+
+.navbar a {
+  color: white;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin: auto;
+}
+
+.nav-active {
+  /* bold font */
+  font-weight: 700;
+}
+
+.main-wrapper {
+  width: 740px;
+  margin: 0 auto;
+}
+
+.main-img{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px gray;
+}
+
+#header{
+  /* light font */
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #BCBCBC;
+}
+
+.img-fluid {
+  padding-bottom: 2em;
+}
+
+.date-text {
+  color: #BCBCBC;
+  font-weight: 400;
+  text-transform: uppercase;
+}

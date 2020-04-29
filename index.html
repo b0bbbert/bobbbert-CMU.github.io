@@ -1,79 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="A website about laser cutting">
-    <meta name="author" content="Bobby Zhang">
-    <meta name="keywords" content="laser cutting">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Mobile Web Design and Development</title>
   </head>
   <body>
-    <header>
-      <a href="index.html"> Index</a> |
-      <a href="howto.html"> How To</a> |
-      <a href="gallery.html"> Gallery</a> |
-      <a href="cading.html"> CAD'ing</a> |
-      <a href="faq.html"> FAQ</a>
-    </header>
+    <div class=main-wrapper>
+      <div class="container-fluid shadow">
 
-    <hr>
+        <!-- header row -->
+        <div class="row justify-content-between" id="header">
+          <div class="col">
+            67240
+          </div>
+          <div class="col text-right">
+            Carnegie Mellon University
+          </div>
+        </div>
 
-    <div id="main_content">
+        <!-- navbar row -->
+        <div class="row">
+          <div class="navbar navbar-fill w-100 shadow" >
+                <a class="nav-item nav-link" href="index.html">Mobile Web Design and Development</a>
+                <a class="nav-item nav-link nav-active" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="gallery_page.html">Gallery</a>
+                <a class="nav-item nav-link" href="clients.html">Clients</a>
+                <a class="nav-item nav-link" href="#">About</a>
+          </div>
+        </div>
 
-      <h2>
-        Welcome to my Laser Cutting introduction site
-      </h2>
+        <!-- image row -->
+        <div class="row">
+            <img src="images/index_banner.png" class="img-fluid" alt="responsive image">
+        </div>
 
-      <p>
-        Click on any of the following links to explore an aspect of laser cutting!
-      </p>
+        <!-- about the class -->
+        <!-- header -->
+        <div class="row">
+          <div class="col sub-head">
+            Learning Objectives
+          </div>
+        </div>
 
-      <ul id="index_list">
-        <li>
-          <a href="gallery.html">
-            Example Gallery
-          </a>
-        </li>
-        <ul>
-          <li>
-            <a href="galleries/engravings.html">
-              Engravings
-            </a>
-          </li>
-          <li>
-            <a href="galleries/boxes.html">
-              Boxes
-            </a>
-          </li>
-          <li>
-            <a href="galleries/gears.html">
-              Gears
-            </a>
-          </li>
-        </ul>
-        <li>
-          <a href="howto.html">
-            How to Laser Cut
-          </a>
-        </li>
-        <li>
-          <a href="faq.html">
-            FAQ
-          </a>
-        </li>
-        <li>
-          <a href="cading.html">
-            CAD'ing
-          </a>
-        </li>
-      </ul>
+        <!-- main content -->
+        <div class="row">
+          <div class="col-5">
+            <p class="title-text">
+              statement about
+            </p>
+            <p class="title-text title-blue">
+              the class.
+            </p>
+          </div>
 
-      <img id="index_image" src="images/laser_cutting.jpg" alt="Laser cutting in progress">
+          <div class="col-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+
+        <!-- example gallery -->
+
+        <!-- header -->
+        <div class="row">
+          <div class="col sub-head">
+            Student Gallery
+          </div>
+        </div>
+
+        <!-- gallery grid -->
+        <!-- row 1 -->
+        <div id="gallery-container">
+          <div class="row gallery-row">
+            <div class="col-4 text-center">
+              <a href="gallery_page.html">
+                <img src="images/web1.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="gallery_page.html" class="gallery-link">Toffu Illustrated</a>
+            </div>
+
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+          </div>
+
+          <!-- row 2 -->
+          <div class="row gallery-row">
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+          </div>
+
+          <!-- row 3 -->
+          <div class="row gallery-row">
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+
+            <div class="col-4 text-center">
+              <a href="#">
+                <img src="images/website_preview.png" alt="preview website photo" class="gallery-photo">
+              </a>
+              <a href="#" class="gallery-link">Site Name</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
     </div>
 
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
